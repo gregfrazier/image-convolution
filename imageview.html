@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <select id="filterType">
+                <option value="noFilter" disabled selected>Select a Filter</option>
+                <option value="Sobel">Sobel Edge Detection</option>
+                <option value="SobelFeldman">Sobel Feldman Edge Detection</option>
+                <option value="BoxBlur">Box Blur 3x3</option>
+                <option value="Gaussian5x5">Gaussian Blur 5x5</option>
+                <option value="Unsharp5x5">Unsharpener 5x5</option>
+                <option value="Sharpen">Sharpener 3x3</option>
+                <option value="Emboss">Emboss 3x3</option>
+                <option value="Gradient">Gradient Detection</option>
+            </select>
+            <button id="swap">Swap</button>
+        </div>
+        <div id="cSurface">
+
+        </div>
+    </body>
+    <script src="imgconv.js"></script>
+</html>
